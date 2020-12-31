@@ -91,6 +91,49 @@
                 </div>
                 </div>
         </div>
+        <!-- Card -->
+        <div class="row row-content align-items-center justify-content-center">
+            <div class="card col-12 col-sm-8">
+                <h2 class="card-header bg-warning text-light">Reserve a Table</h2>
+                <div class="col-12 card-body">
+                    <!-- Begining of form -->
+                    <form action="submit">
+                        <!-- Number of guests -->
+                        <div class="row">
+                            <label class="col-12 col-sm-4 col-form-label">Number of Guests</label>
+                            <div class="col-12 col-sm-7 form-check form-check-inline">
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option1">1 
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option2">2 
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option3">3 
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option4">4 
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option5">5 
+                                <input type="radio" class="form-check-input form-control" name="inlineRadioOptions" value="option6">6 
+                            </div>
+                        </div>
+                        <!-- Date and Time -->
+                        <div class="row form-group">
+                            <label class="col-12 col-sm-4 col-form-label">Date and Time</label>
+                            <div class="col-12 col-sm-4">
+                                <input type="text" class="form-control" name="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <input type="text" class="form-control" name="time" placeholder="Time">
+                            </div>    
+                        </div>
+                        <!-- Reserve Button -->
+                        <div class="form-group">
+                            <div class="offset-sm-4 col-sm-10">
+                                <button type="submit" class="btn btn-primary text-light">
+                                    Reserve
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <footer class="footer">
